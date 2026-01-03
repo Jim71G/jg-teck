@@ -37,6 +37,24 @@ h1 {
   font-size: 1.2em;
   margin: 10px 0 20px;
 }
+/* Top Navigation Bar */
+.topnav {
+    background-color: #2e2e2e;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #6a0dad;
+}
+
+.topnav a {
+    color: #c0c0c0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.topnav a:hover {
+    color: #6a0dad;
+}
 
 /* Navigation Buttons */
 nav {
@@ -66,12 +84,17 @@ nav {
 .cta.secondary:hover {
   background-color: #a9a9a9;
 }
-
+<meta name="theme-color" content="#6a0dad" />
 /* Main Sections */
 main {
   max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
+}
+section {
+    clear: both;
+    position: relative;
+    z-index: 1;
 }
 
 section {
