@@ -144,3 +144,67 @@ footer {
   color: #c0c0c0;
   font-size: 0.9em;
 }
+/* --------------------------------------------------
+   Support Form (Polished JG‑Teck Styling)
+-------------------------------------------------- */
+
+.support-form {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+}
+
+.support-form label {
+  font-weight: 600;
+  margin-top: 18px;
+  display: block;
+}
+
+.support-form input,
+.support-form select,
+.support-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.support-form .cta {
+  margin-top: 24px;
+  width: 100%;
+  padding: 14px;
+  background: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.support-form .cta:hover {
+  background: #580cae;
+}
+
+.form-title {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form-subtitle {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.next-steps {
+  margin-top: 18px;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
