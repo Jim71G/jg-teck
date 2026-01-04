@@ -1,44 +1,26 @@
-/* --------------------------------------------------
- B ase Reset     *
- -------------------------------------------------- */
+/* Base Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* --------------------------------------------------
- B rand Color Var*iables
- -------------------------------------------------- */
-:root {
-  --purple: #5A2A83;
-  --silver: #C0C0C0;
-  --black: #000000;
-  --light-gray: #F2F2F2;
-  --dark-gray: #2e2e2e;
-  --deep-purple: #4a1f6a;
-}
-
-/* --------------------------------------------------
- B ody Styling   *
- -------------------------------------------------- */
+/* Body Styling */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--light-gray);
-  color: var(--black);
+  background-color: #f0f0f0; /* light gray */
+  color: #1a1a1a; /* dark text */
   line-height: 1.6;
   padding: 20px;
 }
 
-/* --------------------------------------------------
- H eader         *
- -------------------------------------------------- */
+/* Header */
 header {
   text-align: center;
-  background-color: var(--dark-gray);
-  color: var(--silver);
+  background-color: #2e2e2e; /* black */
+  color: #c0c0c0; /* shiny silver */
   padding: 40px 20px;
-  border-bottom: 5px solid var(--purple);
+  border-bottom: 5px solid #6a0dad; /* royal purple */
 }
 
 .logo {
@@ -48,93 +30,117 @@ header {
 
 h1 {
   font-size: 2.5em;
-  color: var(--purple);
+  color: #6a0dad; /* royal purple */
 }
 
 .intro {
   font-size: 1.2em;
   margin: 10px 0 20px;
 }
-
-/* --------------------------------------------------
- T op Navigation *Bar
- -------------------------------------------------- */
+/* Top Navigation Bar */
 .topnav {
-  background-color: var(--dark-gray);
-  padding: 10px;
-  text-align: center;
-  border-bottom: 3px solid var(--purple);
+    background-color: #2e2e2e;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #6a0dad;
 }
 
 .topnav a {
-  color: var(--silver);
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: 500;
+    color: #c0c0c0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .topnav a:hover {
-  color: var(--purple);
+    color: #6a0dad;
 }
 
-/* --------------------------------------------------
- C TA Buttons    *
- -------------------------------------------------- */
+/* Navigation Buttons */
 nav {
   margin-top: 20px;
 }
 
 .cta {
-  background: var(--purple);
-  color: white;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
   display: inline-block;
   margin: 10px;
+  padding: 12px 24px;
+  background-color: #6a0dad; /* royal purple */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .cta:hover {
-  background: var(--deep-purple);
+  background-color: #4b0082; /* deeper purple */
 }
 
 .cta.secondary {
-  background: var(--silver);
-  color: var(--black);
+  background-color: #c0c0c0; /* shiny silver */
+  color: #1a1a1a;
 }
 
 .cta.secondary:hover {
-  background: #a8a8a8;
+  background-color: #a9a9a9;
 }
-
-/* --------------------------------------------------
- M ain Sections  *
- -------------------------------------------------- */
+<meta name="theme-color" content="#6a0dad" />
+/* Main Sections */
 main {
   max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
 }
+section {
+    clear: both;
+    position: relative;
+    z-index: 1;
+}
 
 section {
   margin-bottom: 40px;
-  clear: both;
-  position: relative;
-  z-index: 1;
 }
 
 h2 {
   font-size: 2em;
-  color: var(--purple);
+  color: #6a0dad;
   margin-bottom: 20px;
-  border-bottom: 2px solid var(--silver);
+  border-bottom: 2px solid #c0c0c0;
   padding-bottom: 5px;
 }
 
-/* --------------------------------------------------
- S ervice Blocks *
- -------------------------------------------------- */
 .service-block {
-  background-color
+  background-color: white;
+  border-left: 5px solid #6a0dad;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.service-block h3 a {
+  color: #2e2e2e;
+  text-decoration: none;
+}
+
+.service-block h3 a:hover {
+  color: #6a0dad;
+}
+
+/* Contact Section */
+#contact a {
+  color: #6a0dad;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e2e2e;
+  color: #c0c0c0;
+  font-size: 0.9em;
+}
