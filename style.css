@@ -103,7 +103,7 @@ section {
 
 h2 {
   font-size: 2em;
-  color: #6a0dad;
+  color: ##c0c0c0;
   margin-bottom: 20px;
   border-bottom: 2px solid #c0c0c0;
   padding-bottom: 5px;
@@ -118,7 +118,7 @@ h2 {
 }
 
 .service-block h3 a {
-  color: #2e2e2e;
+  color: #c0c0c0;
   text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ h2 {
 
 /* Contact Section */
 #contact a {
-  color: #6a0dad;
+  color: #c0c0c0;
   text-decoration: none;
 }
 
@@ -199,7 +199,7 @@ footer {
 
 .form-subtitle {
   margin-bottom: 20px;
-  color: #555;
+  color: #c0c0c0;
 }
 
 .next-steps {
