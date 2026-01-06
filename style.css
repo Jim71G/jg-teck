@@ -152,7 +152,7 @@ footer {
   max-width: 520px;
   margin: 0 auto;
   padding: 28px;
-  background: #ffffff;
+  background: fff;
   border-radius: 14px;
   box-shadow: 0 4px 18px rgba(0,0,0,0.12);
 }
@@ -179,7 +179,7 @@ footer {
   width: 100%;
   padding: 14px;
   background: #6a0dad;
-  color: #fff;
+  color: ;
   border: none;
   border-radius: 8px;
   font-size: 1.1rem;
